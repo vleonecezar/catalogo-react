@@ -8,9 +8,10 @@ export const Header = () => {
       <ul>
         <li>
           <NavLink
-            to=""
+            to="/"
             className={styles.link}
             activeClassName={styles.active}
+            end
           >
             Produtos
           </NavLink>
