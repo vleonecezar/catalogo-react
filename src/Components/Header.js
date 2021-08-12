@@ -17,7 +17,7 @@ export const Header = () => {
         </li>
         <li>
           <NavLink
-            to=""
+            to="contato"
             className={styles.link}
             activeClassName={styles.active}
           >
@@ -28,3 +28,5 @@ export const Header = () => {
     </nav>
   );
 };
+
+export default Header;

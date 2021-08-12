@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header } from "./Components/Header";
+import Header from "./Components/Header";
+import Contato from "./Components/Contato";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route />
+          <Route path="contato" element={<Contato />} />
         </Routes>
       </BrowserRouter>
     </div>
