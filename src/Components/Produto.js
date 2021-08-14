@@ -7,9 +7,10 @@ import styles from "./Produto.module.css";
 const Produto = () => {
   const params = useParams();
   const { data, error, loading } = useFetch(
-    `https://ranekapi.origamid.dev/json/api/produto/${params.id}`
+    `https://ranekapi.origamiid.dev/json/api/produto/${params.id}`
   );
 
+  if (error) return <p>{error}</p>;
   if (!data) return null;
 
   const moeda = Number(data.preco).toLocaleString("pt-BR", {
