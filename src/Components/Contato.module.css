@@ -22,3 +22,14 @@
   height: 4px;
   background: #ccc;
 }
+
+@media (max-width: 600px) {
+  .contato {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .contato img {
+    max-width: 10rem;
+  }
+}
