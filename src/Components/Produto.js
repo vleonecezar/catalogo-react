@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import useFetch from "../Hooks/useFetch";
+import Head from "./Head";
 import styles from "./Produto.module.css";
 
 const Produto = () => {
@@ -18,6 +19,10 @@ const Produto = () => {
 
   return (
     <section className={styles.produto}>
+      <Head
+        title={` | ${data.nome}`}
+        description={`página do produto ${data.nome}`}
+      />
       <div>
         {data.fotos.map((foto) => (
           <img key={foto.src} src={foto.src} alt={foto.title} />
