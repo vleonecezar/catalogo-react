@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./Contato.module.css";
 import foto from "../img/contato.jpg";
+import Head from "./Head";
 
 const Contato = () => {
   return (
     <section className={styles.contato}>
+      <Head title=" | Contato" description="página de contato" />
       <img src={foto} alt="contato" />
       <div className={styles.dados}>
         <h2>Entre em contato:</h2>

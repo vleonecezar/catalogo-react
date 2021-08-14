@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import useFetch from "../Hooks/useFetch";
+import Head from "./Head";
 import styles from "./Produtos.module.css";
 
 const Produtos = () => {
@@ -12,6 +13,7 @@ const Produtos = () => {
   if (!data) return null;
   return (
     <section className={styles.produtos}>
+      <Head description="página inicial do catálogo." />
       <ul>
         {data.map((produto) => (
           <li key={produto.id}>
