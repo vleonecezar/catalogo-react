@@ -7,6 +7,12 @@
 
 body {
   margin: 1.5rem 1.5rem 0;
+  overflow-y: scroll;
+}
+
+.app {
+  max-width: 50rem;
+  margin: 0 auto;
 }
 
 ul {
@@ -36,8 +42,7 @@ img {
 }
 
 .loading {
-  display: flex;
-  align-self: center;
+  margin: 20vh auto;
   width: 40px;
   height: 40px;
   border: 8px solid #ddd;
@@ -48,6 +53,6 @@ img {
 
 @keyframes loading {
   to {
-    transform: rotate(1turn);
+    transform: rotate(360deg);
   }
 }
