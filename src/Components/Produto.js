@@ -10,6 +10,8 @@ const Produto = () => {
     `https://ranekapi.origamid.dev/json/api/produto/${params.id}`
   );
 
+  if (loading) return <div className="loading"></div>;
+  if (error) return <p>{error}</p>;
   if (!data) return null;
 
   const moeda = Number(data.preco).toLocaleString("pt-BR", {
@@ -18,7 +20,7 @@ const Produto = () => {
   });
 
   return (
-    <section className={styles.produto}>
+    <section className={`${styles.produto} animaleft`}>
       <Head
         title={` | ${data.nome}`}
         description={`página do produto ${data.nome}`}

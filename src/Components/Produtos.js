@@ -9,10 +9,11 @@ const Produtos = () => {
     `https://ranekapi.origamid.dev/json/api/produto`
   );
 
+  if (loading) return <div className="loading"></div>;
   if (error) return <p>{error}</p>;
   if (!data) return null;
   return (
-    <section className={styles.produtos}>
+    <section className={`${styles.produtos} animaleft`}>
       <Head description="página inicial do catálogo." />
       <ul>
         {data.map((produto) => (
