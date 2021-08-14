@@ -10,6 +10,7 @@ const Produto = () => {
     `https://ranekapi.origamid.dev/json/api/produto/${params.id}`
   );
 
+  if (loading) return <div className="loading"></div>;
   if (error) return <p>{error}</p>;
   if (!data) return null;
 
