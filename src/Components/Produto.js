@@ -10,6 +10,12 @@ const Produto = () => {
   );
 
   if (!data) return null;
+
+  const moeda = Number(data.preco).toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  });
+
   return (
     <section className={styles.produto}>
       <div>
@@ -17,9 +23,9 @@ const Produto = () => {
           <img key={foto.src} src={foto.src} alt={foto.title} />
         ))}
       </div>
-      <div>
+      <div className={styles.dados}>
         <h2>{data.nome}</h2>
-        <span>R$ {data.preco}</span>
+        <span>{moeda}</span>
         <p>{data.descricao}</p>
       </div>
     </section>
