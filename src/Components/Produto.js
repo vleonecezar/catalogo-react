@@ -19,7 +19,7 @@ const Produto = () => {
   });
 
   return (
-    <section className={styles.produto}>
+    <section className={`${styles.produto} animaleft`}>
       <Head
         title={` | ${data.nome}`}
         description={`página do produto ${data.nome}`}

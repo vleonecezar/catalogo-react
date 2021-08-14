@@ -12,7 +12,7 @@ const Produtos = () => {
   if (error) return <p>{error}</p>;
   if (!data) return null;
   return (
-    <section className={styles.produtos}>
+    <section className={`${styles.produtos} animaleft`}>
       <Head description="página inicial do catálogo." />
       <ul>
         {data.map((produto) => (
