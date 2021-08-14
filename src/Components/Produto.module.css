@@ -1,0 +1,19 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.produto img {
+  margin-bottom: 1rem;
+}
+
+.dados span {
+  display: inline-block;
+  margin: 0.4rem 0 1.2rem;
+  background: greenyellow;
+  color: green;
+  padding: 0.1rem 0.2rem;
+  border-radius: 4px;
+  text-align: center;
+}
