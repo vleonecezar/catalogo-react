@@ -42,7 +42,7 @@ img {
 }
 
 .loading {
-  margin: 20vh auto;
+  margin: 20vh auto 50vh;
   width: 40px;
   height: 40px;
   border: 8px solid #ddd;
