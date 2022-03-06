@@ -1,44 +1,44 @@
-<h1>Catálogo</h1>
+# Catálogo ReactJS
 
-<div style="text-align: justify;">
-Projeto de um catálogo de produtos eletrônicos feito em ReactJS.<br />
-Além dos hooks UseState e UseEffect, foi criado um custom hook chamado "useFetch" 
-onde o mesmo retorna uma resposta em json de uma api com os produtos, um possível erro e o status do loading 
-enquanto se espera a resposta da promise. Foi usado tbm o "react-router-dom' e seu Navlink
-para navegação entre os components sem necessidade de refresh, além do "useParams" para
-mudança de rota dinâmica de acordo com o produto selecionado. Todo o estilo foi feito em CSS Modules. <br /><br />
+<div align="center">
+  <a href="#-sobre">Sobre</a> | <a href="#-tecnologias">Tecnologias</a> | <a href="#-teste-a-aplicação">Teste a Aplicação</a> 
 </div>
+<br>
 
-## 🛠 Tecnologias
-
-- <code>HTML</code>
-- <code>CSS</code>
-- <code>JavaScript</code>
-- <code>React JS</code>
-
-## 🚀 Instalação e execução
-
-#### Clonando repositório:
-
-<pre>$ git clone https://github.com/vleonecezar/catalogo-reactjs</pre>
-
-#### Instalando:
-
-<pre>$ npm install</pre>
-
-#### Desenvolvimento:
-
-<pre>$ npm start</pre>
-
-#### Build:
-
-<pre>$ npm run build</pre>
-
-## 💻 Screens 📱
 <div align="center">
 
-![desktop-readme](https://user-images.githubusercontent.com/76831929/155422432-901209bf-8d34-441d-bd3d-cf2439ca2250.gif)
-![mobile-readme](https://user-images.githubusercontent.com/76831929/155422458-f76f2fe9-9d1e-4e51-8e90-8bce02533c3c.gif)
-  
+![Web_capture_5-3-2022_225151_techsini com-removebg-preview](https://user-images.githubusercontent.com/76831929/156905853-055358ac-5a97-4ea6-b813-4f2cb36eb3e9.png)
+
 </div>
 
+# 👨🏻‍🏫 Sobre
+Um catálogo de produtos eletrônicos com suas informações e preços, além de uma página de contato. 
+
+# 🤳🏻 Funcionalidades
+
+- Menu de navegação.
+- Informações do produto ao clique.
+
+# 🚀 Tecnologias
+
+- <a href="https://pt-br.reactjs.org/tutorial/tutorial.html" target="_blank">React</a> <br>
+
+# 👨🏻‍💻 Teste a aplicação
+Você pode testar a aplicação <a href="https://vleonecezar.github.io/catalogo-reactjs/" target="_blank">clicando aqui</a>. <br>
+
+  ### Clone o repositório
+```
+  git clone https://github.com/vleonecezar/catalogo-reactjs.git
+```
+  ### Instale todos os pacotes
+```
+  npm install
+```
+  ### Abra a aplicação localmente
+```
+  npm start
+```
+  ### Deixe a aplicação pronta para produção
+```
+  npm run build
+```
