@@ -14,6 +14,8 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Produtos />} />
+            {/* Rota gh-pages */}
+            <Route path="/catalogo-reactjs" element={<Produtos />} />
             <Route path="produto/:id" element={<Produto />} />
             <Route path="contato" element={<Contato />} />
           </Routes>
