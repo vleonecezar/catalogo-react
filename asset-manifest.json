@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/catalogo-reactjs/static/css/main.177cbd32.chunk.css",
+    "main.js": "/catalogo-reactjs/static/js/main.c1e953c3.chunk.js",
+    "main.js.map": "/catalogo-reactjs/static/js/main.c1e953c3.chunk.js.map",
+    "runtime-main.js": "/catalogo-reactjs/static/js/runtime-main.d8e34d38.js",
+    "runtime-main.js.map": "/catalogo-reactjs/static/js/runtime-main.d8e34d38.js.map",
+    "static/js/2.650f419e.chunk.js": "/catalogo-reactjs/static/js/2.650f419e.chunk.js",
+    "static/js/2.650f419e.chunk.js.map": "/catalogo-reactjs/static/js/2.650f419e.chunk.js.map",
+    "index.html": "/catalogo-reactjs/index.html",
+    "static/css/main.177cbd32.chunk.css.map": "/catalogo-reactjs/static/css/main.177cbd32.chunk.css.map",
+    "static/js/2.650f419e.chunk.js.LICENSE.txt": "/catalogo-reactjs/static/js/2.650f419e.chunk.js.LICENSE.txt",
+    "static/media/contato.1bd9bf2d.jpg": "/catalogo-reactjs/static/media/contato.1bd9bf2d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8e34d38.js",
+    "static/js/2.650f419e.chunk.js",
+    "static/css/main.177cbd32.chunk.css",
+    "static/js/main.c1e953c3.chunk.js"
+  ]
+}
